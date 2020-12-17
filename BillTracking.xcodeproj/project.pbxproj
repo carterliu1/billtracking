@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B37809F256E023000086501 /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37809E256E023000086501 /* StockModel.swift */; };
+		3B8A91C2254FCD0100C2BBFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A91C1254FCD0100C2BBFB /* AppDelegate.swift */; };
+		3B8A91C4254FCD0100C2BBFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A91C3254FCD0100C2BBFB /* SceneDelegate.swift */; };
+		3B8A91C6254FCD0100C2BBFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A91C5254FCD0100C2BBFB /* ViewController.swift */; };
+		3B8A91C9254FCD0100C2BBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8A91C7254FCD0100C2BBFB /* Main.storyboard */; };
+		3B8A91CB254FCD0500C2BBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8A91CA254FCD0500C2BBFB /* Assets.xcassets */; };
+		3B8A91CE254FCD0500C2BBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8A91CC254FCD0500C2BBFB /* LaunchScreen.storyboard */; };
+		3B8A91D6254FCE2700C2BBFB /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A91D5254FCE2700C2BBFB /* PaymentTableViewCell.swift */; };
+		3B8A91D8254FCF7000C2BBFB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A91D7254FCF7000C2BBFB /* MapViewController.swift */; };
+		3B8A91DA254FCF9000C2BBFB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A91D9254FCF9000C2BBFB /* DetailViewController.swift */; };
+		3B8A91DC254FD04000C2BBFB /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8A91DB254FD04000C2BBFB /* PaymentModel.swift */; };
+		3B9B5ED725731424002B1B94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B9B5ED625731423002B1B94 /* GoogleService-Info.plist */; };
+		BE2A742E28EF1B794A47791B /* Pods_BillTracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4428A0FD58C775E1814F62A5 /* Pods_BillTracking.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B37809E256E023000086501 /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
+		3B8A91BE254FCD0100C2BBFB /* BillTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8A91C1254FCD0100C2BBFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B8A91C3254FCD0100C2BBFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B8A91C5254FCD0100C2BBFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B8A91C8254FCD0100C2BBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B8A91CA254FCD0500C2BBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B8A91CD254FCD0500C2BBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B8A91CF254FCD0500C2BBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8A91D5254FCE2700C2BBFB /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
+		3B8A91D7254FCF7000C2BBFB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3B8A91D9254FCF9000C2BBFB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3B8A91DB254FD04000C2BBFB /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+		3B9B5ED625731423002B1B94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4428A0FD58C775E1814F62A5 /* Pods_BillTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BillTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		901C42FD73895AE9EC328D17 /* Pods-BillTracking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BillTracking.release.xcconfig"; path = "Target Support Files/Pods-BillTracking/Pods-BillTracking.release.xcconfig"; sourceTree = "<group>"; };
+		9DF822E5B98410C0B1A92BF8 /* Pods-BillTracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BillTracking.debug.xcconfig"; path = "Target Support Files/Pods-BillTracking/Pods-BillTracking.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B8A91BB254FCD0100C2BBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2A742E28EF1B794A47791B /* Pods_BillTracking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B8A91B5254FCD0100C2BBFB = {
+			isa = PBXGroup;
+			children = (
+				3B8A91C0254FCD0100C2BBFB /* BillTracking */,
+				3B8A91BF254FCD0100C2BBFB /* Products */,
+				9098763B09963A689100F3D8 /* Pods */,
+				8E9D1AB98D5F84298704B954 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B8A91BF254FCD0100C2BBFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B8A91BE254FCD0100C2BBFB /* BillTracking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B8A91C0254FCD0100C2BBFB /* BillTracking */ = {
+			isa = PBXGroup;
+			children = (
+				3B8A91C1254FCD0100C2BBFB /* AppDelegate.swift */,
+				3B8A91C3254FCD0100C2BBFB /* SceneDelegate.swift */,
+				3B8A91C5254FCD0100C2BBFB /* ViewController.swift */,
+				3B8A91C7254FCD0100C2BBFB /* Main.storyboard */,
+				3B8A91DB254FD04000C2BBFB /* PaymentModel.swift */,
+				3B8A91D9254FCF9000C2BBFB /* DetailViewController.swift */,
+				3B8A91D7254FCF7000C2BBFB /* MapViewController.swift */,
+				3B8A91D5254FCE2700C2BBFB /* PaymentTableViewCell.swift */,
+				3B8A91CA254FCD0500C2BBFB /* Assets.xcassets */,
+				3B8A91CC254FCD0500C2BBFB /* LaunchScreen.storyboard */,
+				3B8A91CF254FCD0500C2BBFB /* Info.plist */,
+				3B37809E256E023000086501 /* StockModel.swift */,
+				3B9B5ED625731423002B1B94 /* GoogleService-Info.plist */,
+			);
+			path = BillTracking;
+			sourceTree = "<group>";
+		};
+		8E9D1AB98D5F84298704B954 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4428A0FD58C775E1814F62A5 /* Pods_BillTracking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9098763B09963A689100F3D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DF822E5B98410C0B1A92BF8 /* Pods-BillTracking.debug.xcconfig */,
+				901C42FD73895AE9EC328D17 /* Pods-BillTracking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B8A91BD254FCD0100C2BBFB /* BillTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B8A91D2254FCD0500C2BBFB /* Build configuration list for PBXNativeTarget "BillTracking" */;
+			buildPhases = (
+				3560DEAA9CADD69E016878EB /* [CP] Check Pods Manifest.lock */,
+				3B8A91BA254FCD0100C2BBFB /* Sources */,
+				3B8A91BB254FCD0100C2BBFB /* Frameworks */,
+				3B8A91BC254FCD0100C2BBFB /* Resources */,
+				7D6A9E3C87891B7CA1D304D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BillTracking;
+			productName = BillTracking;
+			productReference = 3B8A91BE254FCD0100C2BBFB /* BillTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B8A91B6254FCD0100C2BBFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Carter Liu";
+				TargetAttributes = {
+					3B8A91BD254FCD0100C2BBFB = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 3B8A91B9254FCD0100C2BBFB /* Build configuration list for PBXProject "BillTracking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B8A91B5254FCD0100C2BBFB;
+			productRefGroup = 3B8A91BF254FCD0100C2BBFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B8A91BD254FCD0100C2BBFB /* BillTracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B8A91BC254FCD0100C2BBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8A91CE254FCD0500C2BBFB /* LaunchScreen.storyboard in Resources */,
+				3B9B5ED725731424002B1B94 /* GoogleService-Info.plist in Resources */,
+				3B8A91CB254FCD0500C2BBFB /* Assets.xcassets in Resources */,
+				3B8A91C9254FCD0100C2BBFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3560DEAA9CADD69E016878EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BillTracking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D6A9E3C87891B7CA1D304D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BillTracking/Pods-BillTracking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BillTracking/Pods-BillTracking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BillTracking/Pods-BillTracking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B8A91BA254FCD0100C2BBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B37809F256E023000086501 /* StockModel.swift in Sources */,
+				3B8A91C6254FCD0100C2BBFB /* ViewController.swift in Sources */,
+				3B8A91C2254FCD0100C2BBFB /* AppDelegate.swift in Sources */,
+				3B8A91D6254FCE2700C2BBFB /* PaymentTableViewCell.swift in Sources */,
+				3B8A91DA254FCF9000C2BBFB /* DetailViewController.swift in Sources */,
+				3B8A91DC254FD04000C2BBFB /* PaymentModel.swift in Sources */,
+				3B8A91D8254FCF7000C2BBFB /* MapViewController.swift in Sources */,
+				3B8A91C4254FCD0100C2BBFB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B8A91C7254FCD0100C2BBFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8A91C8254FCD0100C2BBFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B8A91CC254FCD0500C2BBFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8A91CD254FCD0500C2BBFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B8A91D0254FCD0500C2BBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B8A91D1254FCD0500C2BBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B8A91D3254FCD0500C2BBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF822E5B98410C0B1A92BF8 /* Pods-BillTracking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5J6VMX2BD;
+				INFOPLIST_FILE = BillTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ASU.BillTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B8A91D4254FCD0500C2BBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901C42FD73895AE9EC328D17 /* Pods-BillTracking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5J6VMX2BD;
+				INFOPLIST_FILE = BillTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ASU.BillTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B8A91B9254FCD0100C2BBFB /* Build configuration list for PBXProject "BillTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8A91D0254FCD0500C2BBFB /* Debug */,
+				3B8A91D1254FCD0500C2BBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B8A91D2254FCD0500C2BBFB /* Build configuration list for PBXNativeTarget "BillTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B8A91D3254FCD0500C2BBFB /* Debug */,
+				3B8A91D4254FCD0500C2BBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B8A91B6254FCD0100C2BBFB /* Project object */;
+}
